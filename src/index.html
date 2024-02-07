@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet" />
+    <link href="./css/global.css" rel="stylesheet" />
+  </head>
+  <body class="py-10 px-20">
+    <div class="bg-[#92cace] px-40 rounded-xl">
+      <header>
+        <div class="flex justify-between py-10">
+          <button id="confetti" class="font-bold text-lg">Yanuar Arufy</button>
+          <button id="email" class="font-bold text-base" onclick="sendEmail()">
+            yanuararufy14@gmail.com
+          </button>
+        </div>
+      </header>
+      <main class="my-20">
+        <div class="gap-10 flex justify-between">
+          <div class="h-80 flex flex-col m-auto gap-10">
+            <div id="location" class="font-bold text-base flex">
+              <img src="public/iconLocation.svg" alt="location" />Bandar
+              Lampung, Indonesia
+            </div>
+            <div id="Hello" class="text-4xl">Hello, I'm Yanuar Arufy</div>
+            <div id="bio" class="text-base">
+              Web development magic captivated me! From front-end wizardry with
+              ReactJS to backend mastery with NodeJS, I'm journeying to become a
+              Fullstack JavaScript Developer. Every challenge conquered, every
+              app built, fuels my passion. I dream of tackling complex projects,
+              wielding diverse frameworks, and collaborating with other
+              developers. Are you ready to join me in crafting the future of the
+              web? Start with the JavaScript basics, practice relentlessly, seek
+              knowledge online, and join the community. Let's build something
+              amazing together!
+            </div>
+            <div id="hyperlink" class="font-bold w-60 grid grid-cols-3">
+              <div>
+                <a href="https://www.facebook.com/yanuar.arufy.5"
+                  ><button>
+                    <img src="public/facebook.svg" alt="facebook" /></button
+                ></a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/yanuararufy/"
+                  ><button>
+                    <img src="public/linkedin.svg" alt="linkedin" /></button
+                ></a>
+              </div>
+              <div>
+                <a href="https://www.twitter.com/yanuararufy"
+                  ><button>
+                    <img src="public/twitter.svg" alt="twitter" /></button
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="py-10 relative">
+            <img
+              class="object-fill rounded-full aspect-square"
+              src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="" />
+          </div>
+        </div>
+      </main>
+      <footer class="py-10">
+        <div></div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/confetti.js"></script>
+  </body>
+</html>
